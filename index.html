@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTAL DE NOTÍCIAS GALACTICA</title>
     <link rel="stylesheet" href="styles/card.css">
     <script src="src/components/CardNews.js" defer></script>
+    <script src="src/components/TituloDinamico.js" defer></script>
 </head>
-<body>
-    <div class="container">
-        <div class="card">
-            <div class="card_left">
-                <span>By Igor Moura</span>
-                <h1>Darth Vader Contrata Devs</h1>
-                <p>Darth Vader procura desenvolvedores que saibam trabalhar com componentes</p>
-            </div>
-            <div class="card_right">
-                <img src="fotos/darthvader.jpg" alt="Darth Vader">
-            </div>
-        </div>
-    </div>
 
-    <card-news></card-news>
+<body>
+
+    <card-news 
+        autor="Igor Moura"
+        title="Darth Vader Contrata Devs"
+        link-url="#"
+        content="Darth Vader procura desenvolvedores que saibam trabalhar com componentes"
+        link-image="../../fotos/darthvader.jpg"
+    ></card-news>
+
+    <card-news 
+        autor="João"
+        title="João não sabe o que faz!"
+        link-url="#"
+        content="Joãozinho está perdido no mundo dos games"
+        link-image="../../fotos/darthvader.jpg"
+    ></card-news>
+
+    <card-news 
+        autor="Mary Jayne"
+        title="Onde está você Homem-Aranha?"
+        link-url="#"
+        content="Mary Jayne entra em desespero após sumiço de seu amor."
+        link-image="../../fotos/darthvader.jpg"
+    ></card-news>
+
 </body>
+
 </html>
